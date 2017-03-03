@@ -1,11 +1,12 @@
 var OAuth2 = require('simple-oauth2'),
     Q = require('q'),
+	 FitbitApiClient = require("fitbit-node"),
     Request = require('request');
 
 function FitbitApiClient(clientID, clientSecret) {
     this.oauth2 = OAuth2({
-        clientID: clientID,
-        clientSecret: clientSecret,
+        clientID: '228BSX',
+        clientSecret: '6a1421682320690a85c85b78c6e59f15',
         site: 'https://api.fitbit.com/',
         authorizationPath: 'oauth2/authorize',
         tokenPath: 'oauth2/token',
