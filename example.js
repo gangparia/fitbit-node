@@ -9,13 +9,13 @@ var FitbitApiClient = require("fitbit-node"),
 // redirect the user to the Fitbit authorization page
 app.get("/authorize", function (req, res) {
     // request access to the user's activity, heartrate, location, nutrion, profile, settings, sleep, social, and weight scopes
-    res.redirect(client.getAuthorizeUrl('activity heartrate location nutrition profile settings sleep social weight', 'YOUR_CALLBACK_URL'));
+    res.redirect(client.getAuthorizeUrl('activity heartrate location nutrition profile settings sleep social weight', 'https://damp-cove-60387.herokuapp.com/'));
 });
 
 // handle the callback from the Fitbit authorization flow
 app.get("/callback", function (req, res) {
     // exchange the authorization code we just received for an access token
-    client.getAccessToken(req.query.code, 'YOUR_CALLBACK_URL').then(function (result) {
+    client.getAccessToken(req.query.code, 'https://damp-cove-60387.herokuapp.com/').then(function (result) {
         // use the access token to fetch the user's profile information
         client.get("/profile.json", result.access_token).then(function (results) {
             res.send(results[0]);
