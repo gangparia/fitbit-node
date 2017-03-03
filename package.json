@@ -9,13 +9,13 @@
 	
     "repository": {
         "type": "git",
-        "url": "https://github.com/lukasolson/fitbit-node"
+        "url": "https://github.com/gangparia/fitbit-node"
     },
     "keywords": [
         "Fitbit",
         "Node"
     ],
-    "author": "Lukas Olson <olson.lukas@gmail.com>",
+    "author": "Pankaj Kumar <pankaj8261@gmail.com>",
     "license": "ISC",
     "bugs": {
         "url": "https://github.com/lukasolson/fitbit-node/issues"
