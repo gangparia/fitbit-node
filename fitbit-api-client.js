@@ -1,6 +1,5 @@
 var OAuth2 = require('simple-oauth2'),
     Q = require('q'),
-	 FitbitApiClient = require("fitbit-node"),
     Request = require('request');
 
 function FitbitApiClient(clientID, clientSecret) {
