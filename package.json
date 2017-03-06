@@ -23,6 +23,7 @@
     "dependencies": {
         "simple-oauth2": "^0.8.0",
         "q": "^1.4.1",
+	"express": "3.0",
         "request": "^2.76.0"
     },
     "devDependencies": {
