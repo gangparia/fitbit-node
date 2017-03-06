@@ -27,7 +27,6 @@
         "request": "^2.76.0"
     },
     "devDependencies": {
-        "express": "^4.14.0",
-	    "fitbit-node" : "2.0.5"
+        "express": "^4.14.0"
     }
 }
