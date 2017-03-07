@@ -9,5 +9,4 @@ var FitbitApiClient = require("fitbit-node"),
 // launch the server
 app.listen(3000, ()=>{
 	console.log('server started on port --> 30000');
-	console.log('testing');
 });
