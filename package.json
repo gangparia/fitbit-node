@@ -1,33 +1,33 @@
 {
-    "name": "fitbit-node-oauth",
-    "version": "2.0.5",
-    "description": "An API client library for Fitbit written in Node.js.",
-    "main": "fitbit-api-client.js",
-    "scripts": {
-        "start": "node example.js"
-    },
-	
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/gangparia/fitbit-node"
-    },
-    "keywords": [
-        "Fitbit",
-        "Node"
-    ],
-    "author": "Pankaj Kumar <pankaj8261@gmail.com>",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/lukasolson/fitbit-node/issues"
-    },
-    "dependencies": {
-        "simple-oauth2": "^0.8.0",
-        "q": "^1.4.1",
-	    "express": "3.0",
-        "request": "^2.76.0"
-    },
-    "devDependencies": {
-        "express": "^4.14.0",
-		"fitbit-node" : "2.0.5"
-    }
+  "name": "fitbit-node-oauth",
+  "version": "2.0.5",
+  "description": "An API client library for Fitbit written in Node.js.",
+  "main": "fitbit-api-client.js",
+  "scripts": {
+    "start": "node example.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gangparia/fitbit-node.git"
+  },
+  "keywords": [
+    "Fitbit",
+    "Node"
+  ],
+  "author": "Pankaj Kumar <pankaj8261@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukasolson/fitbit-node/issues"
+  },
+  "dependencies": {
+    "simple-oauth2": "^0.8.0",
+    "q": "^1.4.1",
+    "express": "3.0",
+    "request": "^2.76.0"
+  },
+  "devDependencies": {
+    "express": "^4.14.0",
+    "fitbit-node": "2.0.5"
+  },
+  "homepage": "https://github.com/gangparia/fitbit-node#readme"
 }
